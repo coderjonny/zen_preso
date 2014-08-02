@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+.no-support-message { display:none; }
+.impress-not-supported .no-support-message { display:block; }
+
+/* additional styles just to make things look a bit nicer */
+body {
+  background: image-url('wood_pattern.png'), repeat;
+  background-image: asset-data-url("wood_pattern.png");
+  font: 24px/24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.step {
+  margin: 0 auto 24px auto;
+  text-align: center;
+  font-size: 50px;
+  line-height: 70px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+  width: 940px;
+}
+
+.step p {
+  border-radius: 20px;
+  border: 8px dashed black;
+  box-shadow: inset 0px 0px 10px 1px black;
+  padding: 40px 20px;
+}
+
+/* slide2*/
+.notime {
+  width: 100%;
+}
+/* slide6*/
+.small {
+  font-size: 30px;
+}
+/* 8*/
+.whiteborder {
+  border: 8px white dashed;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px;
+}
+
+/* 9*/
+h3 {
+  margin: 30px;
+  margin-top: 10px;
+}
+
+/* 12*/
+.smaller {
+  font-size: 30px;
+}
+
+/* 18*/
+p.details {
+  font-size: 20px;
+  padding: 10px;
+}

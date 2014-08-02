@@ -3,7 +3,8 @@
 
 /* additional styles just to make things look a bit nicer */
 body {
-  background: url('wood_pattern.png'), repeat;
+  background: image-url('wood_pattern.png'), repeat;
+  background-image: asset-data-url("wood_pattern.png");
   font: 24px/24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: black;
   font-size: 16px;
